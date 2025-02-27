@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+@media screen and (min-width: 200px) and (max-width: 400px) {
+    img {
+        display: none;
+    }
+}
+
 body {
     background-color: #000000;
     /* Pozadina tela je crna */
